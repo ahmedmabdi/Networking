@@ -83,11 +83,6 @@ Networking/
 │   ├── 05_Subnetting.md
 │   ├── 06_Troubleshooting.md
 │   └── 07_CloudNetworking.md
-├── Labs/
-│   ├── ping_troubleshooting.sh
-│   ├── subnet_calc_examples.txt
-│   ├── dns_lookup_practice.sh
-│   └── ...
 </pre>
 
 ---
