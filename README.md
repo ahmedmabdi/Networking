@@ -72,4 +72,41 @@ The Networking Module is divided into 7 core sections and 1 final assignment:
 - [ ] Intro to Networking in the Cloud
 ---
 
-### 📁 Folder Structure
+<pre>
+Networking/
+├── README.md
+├── Notes/
+│   ├── 01_Intro_Networking.md
+│   ├── 02_OSI_Model.md
+│   ├── 03_DNS.md
+│   ├── 04_Routing.md
+│   ├── 05_Subnetting.md
+│   ├── 06_Troubleshooting.md
+│   └── 07_CloudNetworking.md
+├── Labs/
+│   ├── ping_troubleshooting.sh
+│   ├── subnet_calc_examples.txt
+│   ├── dns_lookup_practice.sh
+│   └── ...
+</pre>
+
+---
+
+## ✅ Goals
+
+- [x] Complete Networking Theory Lessons
+- [x] Document Practical Networking Tools
+- [x] Create subnetting calculator examples
+---
+
+## 🧠 Tools & Commands Practiced
+
+- `ping`, `traceroute`, `nslookup`, `dig`
+
+---
+
+## 🙋‍♂️ Connect
+
+Feel free to clone, fork, or contribute if you're following a similar learning path.
+
+---
