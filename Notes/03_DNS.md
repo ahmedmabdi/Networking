@@ -48,20 +48,26 @@
 8. User’s browser connects to the server using that IP.
 
 ---
-
 ## DNS Debugging: dig & nslookup
 
-dig – Detailed DNS lookup
-Examples:
-dig google.com            # Full DNS query for google.com, shows all details
-dig +short google.com      # Shows only the IP address, no extra info
-dig MX gmail.com           # Queries MX (mail) records for gmail.com
-dig @8.8.8.8 google.com    # Queries google.com using Google’s public DNS server
+### dig – Detailed DNS lookup  
+Examples:  
+- `dig google.com`  
+  _Full DNS query for google.com, shows all details._  
+- `dig +short google.com`  
+  _Shows only the IP address, no extra info._  
+- `dig MX gmail.com`  
+  _Queries MX (mail) records for gmail.com._  
+- `dig @8.8.8.8 google.com`  
+  _Queries google.com using Google’s public DNS server._
 
-nslookup – Quick domain check
-Examples:
-nslookup google.com                # Basic DNS lookup for google.com
-nslookup -query=MX gmail.com       # Lookup MX (mail) records for gmail.com
-nslookup google.com 8.8.8.8        # Use Google DNS server for lookup
+### nslookup – Quick domain check  
+Examples:  
+- `nslookup google.com`  
+  _Basic DNS lookup for google.com._  
+- `nslookup -query=MX gmail.com`  
+  _Lookup MX (mail) records for gmail.com._  
+- `nslookup google.com 8.8.8.8`  
+  _Use Google DNS server for lookup._
 
 Both tools help check DNS records and troubleshoot name resolution issues.
