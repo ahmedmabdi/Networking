@@ -49,8 +49,19 @@
 
 ---
 
-## 🛠️ DNS Tools in Terminal
+## DNS Debugging: dig & nslookup
 
-### 🔍 `nslookup`
-```bash
-nslookup google.com
+dig – Detailed DNS lookup
+Examples:
+dig google.com            # Full DNS query for google.com, shows all details
+dig +short google.com      # Shows only the IP address, no extra info
+dig MX gmail.com           # Queries MX (mail) records for gmail.com
+dig @8.8.8.8 google.com    # Queries google.com using Google’s public DNS server
+
+nslookup – Quick domain check
+Examples:
+nslookup google.com                # Basic DNS lookup for google.com
+nslookup -query=MX gmail.com       # Lookup MX (mail) records for gmail.com
+nslookup google.com 8.8.8.8        # Use Google DNS server for lookup
+
+Both tools help check DNS records and troubleshoot name resolution issues.
