@@ -4,7 +4,7 @@ This repository contains my structured notes, practice, and learning materials f
 
 ---
 
-## 📚 Module Overview
+## Module Overview
 
 The Networking Module is divided into 7 core sections and 1 final assignment:
 
@@ -94,13 +94,13 @@ Networking/
 - [x] Create subnetting calculator examples
 ---
 
-## 🧠 Tools & Commands Practiced
+## Tools & Commands Practiced
 
 - `ping`, `traceroute`, `nslookup`, `dig`
 
 ---
 
-## 🙋‍♂️ Connect
+##  Connect
 
 Feel free to clone, fork, or contribute if you're following a similar learning path.
 
